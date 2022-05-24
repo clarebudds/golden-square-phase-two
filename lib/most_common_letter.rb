@@ -7,7 +7,6 @@ def get_most_common_letter(text)
   counter.to_a.sort_by { |k, v| v }[0][0]
   # p counter #prints out all the key value pairs of the counter hash
   p counter.max_by { |k,v| v } [0][0] #returns the key value pair with the max value
-  
 end
 
 puts get_most_common_letter("the roof, the roof, the roof is on fire!")
