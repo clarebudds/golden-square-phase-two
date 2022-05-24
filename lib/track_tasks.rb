@@ -1,3 +1,7 @@
 def track_tasks(text)
-  return false
-end
+  if text.include? "#TODO"
+    return true
+  else
+   return false
+  end
+end 

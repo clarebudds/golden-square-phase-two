@@ -19,13 +19,13 @@ track_tasks(text)
 3. Create Examples as Tests
 <!-- Make a list of examples of what the method will take and return. -->
 
-#1 todotask_list(" ")
+#1 track_tasks(" ")
 # => false
 
-#2 todotask_list("cook dinner")
+#2 track_tasks("cook dinner")
 # => false
 
-#3 todotask_list("#TODO cook dinner")
+#3 track_tasks("#TODO cook dinner")
 # => true
 
 
