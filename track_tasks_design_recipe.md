@@ -1,4 +1,4 @@
-ToDoTask Method Design Recipe
+Track Tasks Method Design Recipe
 
 1. Describe the Problem
 <!-- Put or write the user story here. Add any clarifying notes you might have. -->
@@ -10,9 +10,11 @@ I want to check if a text includes the string #TODO.
 2. Design the Method Signature
 <!-- Include the name of the method, its parameters, return value, and side effects. -->
 
-task_tracker = todotask_list(text)
+track_tasks(text)
 
 # text is a string of words
+# the method will check if the string of text includes #TODO which is either yes or no
+# the method will return a boolean: true or false
 
 3. Create Examples as Tests
 <!-- Make a list of examples of what the method will take and return. -->
@@ -24,9 +26,6 @@ task_tracker = todotask_list(text)
 # => false
 
 #3 todotask_list("#TODO cook dinner")
-# => true
-
-#4 todotask_list("#TODO ")
 # => true
 
 
