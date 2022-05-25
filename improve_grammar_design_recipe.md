@@ -10,7 +10,7 @@ ends with a suitable sentence-ending punctuation mark.
 2. Design the Method Signature
 <!-- Include the name of the method, its parameters, return value, and side effects. -->
 
-cis_correct = check_grammar(text)
+is_correct = check_grammar(text)
 
 # text is a string with words in it
 # is_correct is a boolean depending on whether it checks out
